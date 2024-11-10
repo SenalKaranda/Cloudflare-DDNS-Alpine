@@ -107,7 +107,7 @@ update=$(curl -s -X PATCH "https://api.cloudflare.com/client/v4/zones/$zone_iden
 echo "Update response: $update"
 
 # Check if the response indicates success
-if [[ $update == *"\"success\":false"* ]]; then
+if [[ $update = *"\"success\":false"* ]]; then
     echo "DDNS Updater: Failed to update the IP address. Response: $update" >&2
     exit 1
 fi
