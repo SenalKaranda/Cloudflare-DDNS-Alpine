@@ -6,7 +6,7 @@ A modified version of an original script to work with Alpine Linux. This script 
 ## Installation
 
 ```bash
-git clone https://github.com/SenalKaranda/cloudflare-ddns-updater-alpine.git
+git clone https://github.com/SenalKaranda/Cloudflare-DDNS-Alpine.git
 ```
 
 ## Usage
